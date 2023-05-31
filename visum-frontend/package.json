@@ -1,0 +1,48 @@
+{
+  "name": "vite-react-typescript-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.1.0",
+    "antd": "^5.5.0",
+    "atomic-router": "^0.8.0",
+    "atomic-router-react": "^0.8.3",
+    "axios": "^1.4.0",
+    "core-js": "^3.28.0",
+    "effector": "^22.5.0",
+    "effector-react": "^22.4.0",
+    "effector-storage": "^6.0.0",
+    "express": "^4.18.2",
+    "normalize.css": "^8.0.1",
+    "path": "^0.12.7",
+    "patronum": "^1.18.0",
+    "plyr": "^3.7.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-player": "^2.12.0",
+    "socket.io-client": "^4.6.1",
+    "usehooks-ts": "^2.9.1",
+    "video-react": "^0.16.0",
+    "youtube-player": "^5.6.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/video-react": "^0.15.1",
+    "@types/youtube-player": "^5.5.7",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "4.9.5",
+    "vite": "^4.1.1"
+  }
+}
