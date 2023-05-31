@@ -2,7 +2,6 @@ import { createEffect, createEvent, createStore, sample } from 'effector';
 import { not } from 'patronum';
 import { $token, getSessionFx } from '~/entities/session/model';
 import { createUser } from '~/shared/api/internal';
-import { signUp } from '~/shared/api/shared-api';
 
 export const usernameChanged = createEvent<string>();
 export const emailChanged = createEvent<string>();
